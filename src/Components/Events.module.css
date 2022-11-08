@@ -1,0 +1,69 @@
+.team_container {
+    padding: 100px 0;
+    background-color: #0b0a08;
+    width: 100vw;
+    height: 49rem;
+  }
+  .team_container > h1 {
+    color: aliceblue;
+    padding: 35px 0 25px 95px;
+    font-size: 80px;
+    line-height: 75px;
+  }
+  .team_container > p {
+    /* position: absolute;   */
+    z-index: 2;
+    width: 25rem;
+    /* left: -500px; */
+    margin-left: 6.4rem;
+    color: aliceblue;
+    font-size: 23px;
+    line-height: 21px;
+    margin-top: 1rem;
+    line-height: 1.5rem;
+  }
+    .team_container > span {
+        /* position: absolute; */
+        z-index: 2;
+        width: auto;
+        /* left: -500px; */
+        margin-left: 6.4rem;
+        color: aliceblue;
+        font-size: 23px;
+        line-height: 21px;
+        /* margin-top: -1rem; */
+    }  
+
+    .yellow
+    {
+        color: #FFB829;
+    }
+    @media(max-width:761px){
+      .team_container {
+        background-color: #0b0a08;
+    width: 100vw;
+    height: 100vh;
+    margin-top: -12rem;
+
+      }
+      .team_container > h1 {
+        color: aliceblue;
+        /* padding: 35px 0 25px 95px; */
+        font-size: 4rem;
+        line-height: 33px;
+        margin-top: 13rem;
+        margin-left: 0rem;
+      } 
+      .team_container > p {
+            /* position: absolute; */
+    z-index: 2;
+    width: 19rem;
+    /* left: -500px; */
+    margin-left: 2.4rem;
+    color: aliceblue;
+    font-size: 23px;
+    line-height: 21px;
+    margin-top: 1rem;
+    line-height: 1.5rem;
+      }
+    }

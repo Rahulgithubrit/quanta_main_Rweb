@@ -1,0 +1,67 @@
+.container{
+    overflow-x:hidden ;
+}
+.team_container {
+    /* position: relative; */
+    padding: 100px 0;
+    background-color: #0b0a08;
+    width: 100vw;
+    height: 100vh;
+    /* overflow-x: hidden; */
+  }
+  .team_container > h1 {
+    color: aliceblue;
+    padding: 35px 0 25px 95px;
+    font-size: 80px;
+    line-height: 75px;
+  }
+  .team_container > p {
+    /* position: absolute;   */
+    z-index: 2;
+    width: max-content;
+    /* left: -500px; */
+    margin-left: 6.4rem;
+    color: aliceblue;
+    font-size: 23px;
+    line-height: 21px;
+    margin-top: 3rem;
+    line-height: 1.5rem;
+  }
+    .team_container > span {
+        /* position: absolute; */
+        z-index: 2;
+        width: auto;
+        /* left: -500px; */
+        margin-left: 6.4rem;
+        color: aliceblue;
+        font-size: 23px;
+        line-height: 21px;
+        margin-top: -1rem;
+    }  
+
+    .yellow
+    {
+        color: #FFB829;
+    }
+    @media(max-width:761px){
+      .team_container > h1 {
+        color: aliceblue;
+        /* padding: 35px 0 25px 95px; */
+        font-size: 3rem;
+        line-height: 75px;
+        margin-left: -1rem;
+      } 
+      .team_container > p {
+            /* position: absolute; */
+    z-index: 2;
+    width: 21rem;
+    /* left: -500px; */
+    margin-left: 4.4rem;
+    color: aliceblue;
+    font-size: 23px;
+    line-height: 21px;
+    margin-top: 3rem;
+    line-height: 1.5rem;
+}
+      
+    }

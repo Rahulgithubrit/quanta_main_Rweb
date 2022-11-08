@@ -1,0 +1,51 @@
+.our{
+  width: 100vw;
+  height: 40rem;
+  margin-top: 10rem;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+  
+  .container3_ourdepartment{
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+  }
+  .tech{
+    display: flex;
+    flex-direction: row;
+    width: 900px;
+    height: 615px;
+  }
+  .container2{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .our_1{
+    display: flex;
+    flex-direction: row;
+  }
+  .our_2{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 150px;
+  }
+ 
+  .about_text .quan{
+    color: #FFB829;
+  }
+  @media(max-width:761px){
+    .our{
+      width: 100vw;
+      height: 100vh;
+      margin-top: 20rem;
+    }
+  }
+  
+  
+    
+  
+  

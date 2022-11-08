@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,300;1,400&family=Poppins:ital,wght@0,200;0,300;1,200&display=swap');
+
+root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+ 
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color:#0B0A08;
+  font-family: 'Montserrat', sans-serif;
+}
+
+* {
+  box-sizing:border-box ;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  outline: none;
+  border: none;
+}
+
+#main {
+    width: 100%;
+    height: 768px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .name {
+    font-family:'Montserrat',sans-serif;
+    width: 800px;
+    position: absolute;
+    left: 19rem;
+    top: 50%;
+    transform: translate(-22%,-50%);
+  }
+  
+  .name span {
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    margin-left: -12px;
+  }
+  
+  .name h1 {
+    font-family: 'Montserrat',sans-serif;
+    font-size: 100px;
+    right: 100%;
+    margin: 0px;
+    letter-spacing:2px;
+    font-weight: 800;
+    color: aliceblue;
+    margin-bottom: 0.5rem;
+    line-height: 7rem;
+  }
+  
+  .name h2 {
+    font-family:'Montserrat',sans-serif;
+    font-size: 21px;
+    padding:0px;
+    margin-left:1px;
+    letter-spacing: 1px;
+    color: #FFB829;
+  }
+
+.name-container {
+  font-family:'Montserrat',sans-serif;
+  width: 800px;
+  position:absolute;
+  top: 135%;
+  transform: translate(-22%,-50%);
+}
+
+.name-container span {
+  font-size:100px ;
+  color: aliceblue;
+  display:flex;
+  justify-content:space-between;
+  margin-left: 130%;
+}
+
+/* Navbar styles */
+
+.p__color{
+  color: aliceblue;
+  font-size: 23px;
+  line-height: 30px;
+  font-family: 'Montserrat',sans-serif;
+  margin: 30px 60px 15px 780px;
+}
+h1.about__heading{
+  color: aliceblue;
+  margin-bottom: 1px;
+  margin-top: 90px;
+  margin-left: 673px;
+  font-weight: 700px;
+  text-align:center;
+  font-family: 'Montserrat',sans-serif;
+  font-size: 80px;
+}
+/*department.css*/
+.img1{
+  height: 87px;
+  width: 57px;
+  margin-top: 5px;
+  margin-left: 100px;
+}
+.tecnical{
+    margin-top: 33px;
+    color: white;
+    font-size: 35px;
+}
+.our_department{
+    
+    font-size: 80px;
+    color: white;
+    margin-left: -152px;
+    margin-top: -569px;
+
+}
+.img2{
+  width: 97.26px;
+  height: 81.67px;
+    margin-top: -460px;
+    margin-left: 590px;
+    transform: rotate(-8.98deg);
+  
+}
+.design{
+  font-size: 35px;
+ margin-right: 186px;
+ color: white;
+ margin-top: -449px;
+ }
+ .img3{
+  vertical-align: middle;
+  height: 81px;
+  /* width: 116px; */
+  margin-left: 79px;
+  margin-top: -256px;
+}
+.wed_development{
+  font-size: 2.5rem;
+  margin-top: -256px;
+  margin-left: 31px;
+  font-size: 35px;
+  color: white;
+}
+.about_text{
+  font-size: 23px;
+  margin-left: 310px;
+  margin-top: -317px;
+  color: white;
+}
+/*contact.module.css*/
+.container > h1 {
+  font-size: 5.0rem;
+  width: 70vw;
+  text-align: center;
+  color: aliceblue;
+  word-spacing: 0.1rem;
+}
+/*footer*/
+.footer{
+  display: flex;
+  align-items: center;
+  color: white;  /*temporary*/
+  justify-content: space-around;
+  width: 100vw;
+  height: 8vh;
+  background-color: #292929B2;
+  font-size: 0.8rem;
+}
+.second{
+  width: 22vw;
+  text-align: center;
+}
+/*team.module.css*/
+.heroText {
+  font-size: 100px;
+  line-height: 100px;
+  font-family:'Montserrat',sans-serif;
+  color: #FFFFFF;
+  font-weight: 900;
+}
+.heroImg {
+  max-width: 740px;
+  max-height: 628px;
+  margin-left: 200px;
+  margin-top: 50px;
+}
+
+
+@media(max-width:761px){
+  .name span {
+      color: aliceblue;
+      display: flex;
+      justify-content: space-between;
+      margin-left: 0rem;
+      font-size: 52px;
+      align-items: center; 
+      height: 2rem; 
+
+  }
+  #main {
+    width: 100%;
+    height: 39rem;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+  .name h1 {
+      font-family: 'Montserrat',sans-serif;
+      font-size: 52px;
+      right: 100%;
+      margin: 0px;
+      letter-spacing: 2px;
+      font-weight: 800;
+      color: aliceblue;
+      margin-bottom: 0.5rem;
+      line-height: 7rem;
+      margin-left: 120px;
+  }
+  .name h2 {
+    font-family:'Montserrat',sans-serif;
+    font-size: 1rem;
+    padding:0px;
+    margin-left:7rem;
+    letter-spacing: 1px;
+    color: #FFB829;
+  }
+  .name {
+    font-family:'Montserrat',sans-serif;
+    width: 800px;
+    position: absolute;
+    left: 20%;
+    top: 62%;
+    transform: translate(-22%,-50%);
+  }
+  .col__2 {
+    max-width: 84%;
+    display: flex;
+    padding: 0px;
+    justify-content:center;
+    flex-direction: column;
+    margin-top: -100px;
+    margin-right: 81rem;
+  }
+  h1.about__heading {
+    color: aliceblue;
+    margin-bottom: 1px;
+    margin-top: 90px;
+    margin-left: 46rem;
+    font-weight: 700px;
+    text-align: center;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 3rem;
+}
+.p__color {
+  color: aliceblue;
+  font-size: 23px;
+  
+  font-family: 'Montserrat',sans-serif;
+  
+  margin-left: 40rem;
+  margin-right: -42rem;
+  margin-top: 1rem;
+  margin-bottom: 0rem;
+
+}
+
+
+.img1 {
+    height: 93px;
+    width: 66px;
+    margin-left: 4rem;
+    margin-top: 8rem;
+}
+.our_department {
+  font-size: 36px;
+  color: white;
+  margin-left: -25rem;
+  margin-top: -36rem;
+}
+.tecnical { 
+  margin-top: 10rem;
+  color: white;
+  font-size: 36px;
+}
+.img2 {
+  width: 84.26px;
+    height: 76.67px;
+  margin-top: -23rem;
+  margin-left: 4rem;
+  transform: rotate(-8.98deg);
+}
+  .design {
+    font-size: 35px;
+    margin-right: 186px;
+    color: white;
+    margin-top: -21rem;
+}
+.img3 {
+  vertical-align: middle;
+  height: 81px;
+  /* width: 116px; */
+  margin-left: 1rem;
+  margin-top: -16rem;
+}
+.wed_development {
+  font-size: 2.5rem;
+  margin-top: -16rem;
+  margin-left: 0px;
+  font-size: 35px;
+  color: white;
+}
+.about_text {
+  font-size: 23px;
+  margin-left: -22rem;
+  margin-top: -9rem;
+  color: white;
+}
+.Contact_container__JhKfI {
+  /* position: relative; */
+  width: 91%;
+  height: 100vh;
+  background-color: #0b0a08;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: -2rem;
+  /* font-size: 0rem; */
+}
+.container > h1 {
+  font-size: 2.0rem;
+  width: 70vw;
+  text-align: center;
+  color: aliceblue;
+  word-spacing: 0.1rem;
+}
+.Contact_container__JhKfI > h1 {
+  font-size: 2rem;
+  width: 70vw;
+  text-align: center;
+  color: aliceblue;
+  word-spacing: 0.1rem;
+}
+.Footer_footer__xcvz1 {
+  display: flex;
+  align-items: center;
+  color: white;
+  justify-content: space-around;
+  width: 100vw;
+  height: 11vh;
+  background-color: #292929B2;
+  font-size: 0.8rem;
+}
+.Footer_second__R3Iu8 {
+  width: -1rem;
+  text-align: center;
+}
+.heroText{
+  font-size: 38px;
+  line-height: 41px;
+  font-family: 'Montserrat',sans-serif;
+  color: #FFFFFF;
+  font-weight: 900;
+  margin-left: 36rem;
+  margin-top: 4rem;
+}
+.heroImg {
+  max-width: 740px;
+  max-height: 214px;
+  margin-left: -166px;
+  margin-top: 371px;
+  margin-right: 36rem; 
+}
+/*
+.Teamyear_yearName__ZgpiS h1 {
+  color: white;
+  margin-bottom: 0.55rem;
+  font-size: 2.1rem;
+  line-height: 8.3rem;
+}*/
+
+
+}
