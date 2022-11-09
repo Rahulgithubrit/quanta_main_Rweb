@@ -266,7 +266,7 @@ h1.about__heading{
     font-weight: 700px;
     text-align: center;
     font-family: 'Montserrat',sans-serif;
-    font-size: 3rem;
+    font-size: 4rem;
 }
 .p__color {
   color: aliceblue;
@@ -283,15 +283,15 @@ h1.about__heading{
 
 
 .img1 {
-    height: 93px;
-    width: 66px;
-    margin-left: 4rem;
-    margin-top: 8rem;
+  height: 79px;
+  width: 55px;
+  margin-left: 1rem;
+  margin-top: 8rem;
 }
 .our_department {
-  font-size: 36px;
+  font-size: 2.4rem;
   color: white;
-  margin-left: -25rem;
+  margin-left: -34rem;
   margin-top: -36rem;
 }
 .tecnical { 
@@ -300,30 +300,30 @@ h1.about__heading{
   font-size: 36px;
 }
 .img2 {
-  width: 84.26px;
-    height: 76.67px;
-  margin-top: -23rem;
-  margin-left: 4rem;
+  width: 67.26px;
+    height: 62.67px;
+    margin-top: -23rem;
+    margin-left: 13rem;
   transform: rotate(-8.98deg);
 }
   .design {
     font-size: 35px;
     margin-right: 186px;
     color: white;
-    margin-top: -21rem;
+    margin-top: -22rem;
 }
 .img3 {
   vertical-align: middle;
-  height: 81px;
-  /* width: 116px; */
+  height: 4rem;
+   width: 7rem; 
   margin-left: 1rem;
   margin-top: -16rem;
 }
 .wed_development {
   font-size: 2.5rem;
-  margin-top: -16rem;
+  margin-top: -17rem;
   margin-left: 0px;
-  font-size: 35px;
+  font-size: 2.2rem;
   color: white;
 }
 .about_text {
@@ -373,20 +373,20 @@ h1.about__heading{
   text-align: center;
 }
 .heroText{
-  font-size: 38px;
-  line-height: 41px;
+  font-size: 3.9rem;
+  line-height: 4rem;
   font-family: 'Montserrat',sans-serif;
   color: #FFFFFF;
   font-weight: 900;
-  margin-left: 36rem;
+  margin-left: 29rem;
   margin-top: 4rem;
 }
 .heroImg {
-  max-width: 740px;
-  max-height: 214px;
-  margin-left: -166px;
-  margin-top: 371px;
-  margin-right: 36rem; 
+  max-width: 14rem;
+    max-height: 17rem;
+    margin-left: -8rem;
+    margin-top: 30rem;
+    margin-right: 33rem;
 }
 /*
 .Teamyear_yearName__ZgpiS h1 {
