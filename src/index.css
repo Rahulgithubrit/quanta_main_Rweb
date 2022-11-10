@@ -291,7 +291,7 @@ h1.about__heading{
 .our_department {
   font-size: 2.4rem;
   color: white;
-  margin-left: -34rem;
+  margin-left: -32rem;
   margin-top: -36rem;
 }
 .tecnical { 
@@ -303,12 +303,12 @@ h1.about__heading{
   width: 67.26px;
     height: 62.67px;
     margin-top: -23rem;
-    margin-left: 13rem;
+    margin-left: 11rem;
   transform: rotate(-8.98deg);
 }
   .design {
     font-size: 35px;
-    margin-right: 186px;
+    margin-right: 10rem;
     color: white;
     margin-top: -22rem;
 }
@@ -328,7 +328,7 @@ h1.about__heading{
 }
 .about_text { 
   font-size: 23px;
-  margin-left: -22rem;
+  margin-left: -343px;
   margin-top: -9rem;
   color: white;
 }
