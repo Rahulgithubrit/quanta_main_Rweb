@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/quanta_main_Rweb/static/css/main.3f8eadf0.css",
+    "main.css": "/quanta_main_Rweb/static/css/main.75a6d485.css",
     "main.js": "/quanta_main_Rweb/static/js/main.8ff83ede.js",
     "static/media/sample.png": "/quanta_main_Rweb/static/media/sample.5a4f60928dbfe5eef691.png",
     "index.html": "/quanta_main_Rweb/index.html",
-    "main.3f8eadf0.css.map": "/quanta_main_Rweb/static/css/main.3f8eadf0.css.map",
+    "main.75a6d485.css.map": "/quanta_main_Rweb/static/css/main.75a6d485.css.map",
     "main.8ff83ede.js.map": "/quanta_main_Rweb/static/js/main.8ff83ede.js.map"
   },
   "entrypoints": [
-    "static/css/main.3f8eadf0.css",
+    "static/css/main.75a6d485.css",
     "static/js/main.8ff83ede.js"
   ]
 }
