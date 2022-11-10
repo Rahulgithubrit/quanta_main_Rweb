@@ -120,10 +120,14 @@
         margin-top: -10rem;
     }
     .contact{
-        font-size: 47px;
-    line-height: 99px;
+        font-size: 2rem;
+    line-height: 3rem;
     text-align: center;
     color: white;
-    margin: -340px 1px 5px -3px;
+    width: 12rem;
+    /* margin: -340px 1px 5px -3px; */
+    margin-left: 7rem;
+    margin-top: -23rem;
+    margin-bottom: 6rem;
     }
 }
